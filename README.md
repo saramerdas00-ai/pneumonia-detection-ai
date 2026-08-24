@@ -1,14 +1,14 @@
-# 🫁 Détection de Pneumonie sur Radiographies Thoraciques
+#  Détection de Pneumonie sur Radiographies Thoraciques
 
 Projet d'Intelligence Artificielle et Santé utilisant **TensorFlow** et **Deep Learning** pour détecter automatiquement la pneumonie sur des radiographies du thorax.
 
-## 📌 Objectif du Projet
+##  Objectif du Projet
 
 Développer un **modèle CNN (Convolutional Neural Network)** capable de classifier les radiographies thoraciques en deux catégories :
 - ✅ **NORMAL** - Pas de pneumonie
 - ⚠️ **PNEUMONIA** - Pneumonie détectée
 
-## 🎯 Résultats Attendus
+##  Résultats Attendus
 
 | Métrique | Valeur |
 |----------|--------|
@@ -28,7 +28,7 @@ Développer un **modèle CNN (Convolutional Neural Network)** capable de classif
   - Test: 624 images
 - **Licence** : CC BY 4.0 (Libre d'utilisation à titre éducatif)
 
-## 🛠️ Architecture du Modèle
+## Architecture du Modèle
 
 ```
 Input (28x28x1)
@@ -102,9 +102,9 @@ python predict.py --image chemin/vers/image.png
 
 **Sortie exemple** :
 ```
-🔮 Prédiction sur l'image : chemin/vers/image.png
-📊 Classe prédite : PNEUMONIA
-📈 Confiance : 92.34%
+ Prédiction sur l'image : chemin/vers/image.png
+Classe prédite : PNEUMONIA
+Confiance : 92.34%
 ```
 
 ## Résultats & Graphiques
@@ -157,7 +157,7 @@ Test F1-Score:  94.67%
 - [Deep Learning for Medical Image Analysis](https://arxiv.org/abs/2102.09523)
 - [Kaggle: Pneumonia Detection Notebooks](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 
-## 📝 Structure du Projet
+##  Structure du Projet
 
 ```
 pneumonia-detection-ai/
