@@ -17,7 +17,7 @@ Développer un **modèle CNN (Convolutional Neural Network)** capable de classif
 | **Recall** | ~97% |
 | **F1-Score** | ~95% |
 
-## 📊 Dataset Utilisé
+##  Dataset Utilisé
 
 - **Source** : [PneumoniaMNIST](https://medmnist.com/) (MedMNIST v2)
 - **Nombre d'images** : 5,856 radiographies
@@ -50,7 +50,7 @@ Dense(1, Sigmoid) → Output [0, 1]
 - Epochs : 15
 - Batch Size : 32
 
-## 📦 Installation
+##  Installation
 
 ### Prérequis
 - Python 3.8+
@@ -76,9 +76,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 🚀 Utilisation
+##  Utilisation
 
-### 1️⃣ Entraîner le modèle
+### 1️ Entraîner le modèle
 
 ```bash
 python main.py
@@ -94,7 +94,7 @@ python main.py
 
 **Durée estimée** : 5-10 minutes (selon votre GPU/CPU)
 
-### 2️⃣ Faire des prédictions
+### Faire des prédictions
 
 ```bash
 python predict.py --image chemin/vers/image.png
@@ -107,7 +107,7 @@ python predict.py --image chemin/vers/image.png
 📈 Confiance : 92.34%
 ```
 
-## 📈 Résultats & Graphiques
+## Résultats & Graphiques
 
 Après l'entraînement, vous trouverez :
 
@@ -116,7 +116,7 @@ Après l'entraînement, vous trouverez :
 - `results/roc_curve.png` - Courbe ROC-AUC
 - `results/metrics_report.txt` - Rapport détaillé
 
-## 🧪 Évaluation
+##  Évaluation
 
 Le modèle est évalué sur 3 ensembles :
 
@@ -135,7 +135,7 @@ Test Recall:    97.34%
 Test F1-Score:  94.67%
 ```
 
-## 💡 Points Clés du Projet
+## Points Clés du Projet
 
 ✅ **Problème médical réel** : Détection automatisée pour aider les radiologues
 ✅ **Dataset public gratuit** : Pas de données sensibles
@@ -143,14 +143,14 @@ Test F1-Score:  94.67%
 ✅ **Évaluation rigoureuse** : Métriques adaptées au cas médical (Recall > Precision)
 ✅ **Reproductibilité** : Code complet et documenté
 
-## ⚠️ Limitations & Considérations Éthiques
+##  Limitations & Considérations Éthiques
 
 - 🔴 **Pas pour usage clinique direct** : Résultats à valider par un radiologue
 - 🔴 **Dataset limité** : Modèle sur 5,800 images pédiatriques
 - 🔴 **Biais potentiels** : La source du dataset peut influencer les résultats
 - 🟡 **Aucune donnée personnelle** : Images anonymisées
 
-## 📚 Ressources & Références
+##  Ressources & Références
 
 - [TensorFlow Keras Documentation](https://keras.io/)
 - [MedMNIST Dataset Paper](https://medmnist.com/)
@@ -181,31 +181,6 @@ pneumonia-detection-ai/
     └── metrics_report.txt
 ```
 
-## 🎓 Apprentissages
 
-Ce projet vous permet de maîtriser :
 
-1. **Deep Learning** : Architecture CNN pour classification d'images
-2. **TensorFlow/Keras** : Framework principal
-3. **Computer Vision** : Traitement d'images médicales
-4. **Machine Learning Workflow** : Train/Val/Test, évaluation
-5. **Santé & IA** : Application pratique en imagerie médicale
 
-## 👤 Auteur
-
-**Sara Merdas** - [@saramerdas00-ai](https://github.com/saramerdas00-ai)
-
-## 📄 Licence
-
-Ce projet est fourni à titre éducatif. Le dataset PneumoniaMNIST est sous licence CC BY 4.0.
-
-## 🤝 Support & Questions
-
-Si vous avez des questions, consultez :
-- 📖 Les commentaires dans `main.py` et `predict.py`
-- 🔗 Les ressources listées ci-dessus
-- 💬 Posez vos questions dans les Issues GitHub
-
----
-
-**Bon apprentissage ! 🚀**
